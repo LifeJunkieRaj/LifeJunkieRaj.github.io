@@ -151,7 +151,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3e3e3e;
-		margin: 0 0 0.75em 0;
+		/* margin: 0 0 0.75em 0; */
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1686,8 +1686,9 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #232f33;
 		padding: 1em 2.35em 1em 2.35em;
+		text-align: center;
 		font-size: 1.1em;
 		max-width: 24em;
 	}
@@ -1697,7 +1698,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #5e625e;
 			color: #fff !important;
 		}
 
@@ -1935,6 +1936,7 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
+			
 		}
 
 /* Icons */
@@ -2018,7 +2020,7 @@ input, select, textarea {
 	.wrapper {
 		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		padding: 8em 0 8em 0;
+		/* padding: 8em 0 8em 0; */
 		text-align: center;
 	}
 
@@ -2134,14 +2136,13 @@ input, select, textarea {
 	}
 
 	#top {
-		padding: 10em 0 10em 0;
+		/* padding: 10em 0 10em 0; */
 		text-align: left;
 	}
 
 		#top .image {
 			border-radius: 100%;
 			width: 20em;
-			height: 20em;
 			margin: 0;
 		}
 
@@ -2478,14 +2479,55 @@ input, select, textarea {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height:80%;
-	text-align:center
+	height:90vh;
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#skills{
+	height:100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	padding: 6em 0;
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+}
+#skills h3{
+	text-align: center;
+}
+.about {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.portfolio {
+	padding: 3em 0
+}
+
+.portfolio-header{
+	margin-bottom: 0.7em;
+}
+
+.box.style2 {
+	margin-bottom: 0.7em;
+	height: 700px;
+}
+.box.style2 .image{
+	height:300px
+}
+.tech-paragraph {
+	margin: 0;
+}
 
 .banner-container h1, .banner-container p{
 	color:white;
 	text-align:center
+
 }
 .socialLinks{
 	background-color:#006599;
@@ -2523,14 +2565,19 @@ color: white;
 }
 
 .heading h2 {
-	text-align:centrer
+	text-align:center
 
+}
+.contact{
+	background-color:#f4f4f4;
+	padding :6em 0;
 }
 
 .contact-flex {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	margin: 15px;
 }
 
 .contact-adress {
@@ -2542,4 +2589,12 @@ color: white;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.section-heading{
+	margin-bottom:3em;
+	
+}
+footer{
+	text-align:center;
 }
